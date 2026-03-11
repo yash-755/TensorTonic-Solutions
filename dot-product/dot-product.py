@@ -11,6 +11,6 @@ def dot_product(x, y):
 
     if x.shape != y.shape:
         raise ValueError("Vectors must have the same length")
-        
+             
     return float(np.dot(x, y)) 
     pass
