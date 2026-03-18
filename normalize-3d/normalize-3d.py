@@ -4,7 +4,7 @@ def normalize_3d(v):
     """
     Normalize 3D vector(s) to unit length.
     """
-    
+   #Write code here
     v = np.array(v, dtype=float)
 
     norm = np.linalg.norm(v, axis=-1, keepdims=True)
