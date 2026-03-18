@@ -10,7 +10,6 @@ def normalize_3d(v):
     # compute norm
     norm = np.linalg.norm(v, axis=-1, keepdims=True)
 
-    # avoid division by zero
     norm_safe = np.where(norm == 0, 1, norm)
 
     return v / norm_safe
