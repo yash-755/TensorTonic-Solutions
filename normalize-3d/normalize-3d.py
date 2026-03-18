@@ -11,6 +11,7 @@ def normalize_3d(v):
 
     norm_safe = np.where(norm == 0, 1, norm)
 
+    
     return v / norm_safe
     
     pass
