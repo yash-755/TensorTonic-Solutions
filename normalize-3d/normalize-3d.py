@@ -8,7 +8,7 @@ def normalize_3d(v):
     v = np.array(v, dtype=float)
 
     norm = np.linalg.norm(v, axis=-1, keepdims=True)
-
+     
     norm_safe = np.where(norm == 0, 1, norm)
  
     return v / norm_safe
