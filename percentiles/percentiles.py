@@ -8,6 +8,5 @@ def percentiles(x, q):
 
     x = np.array(x, dtype=float)
     q = np.array(q, dtype=float)
-
     return np.percentile(x, q, method='linear')
     pass
