@@ -8,5 +8,4 @@ def make_diagonal(v):
     
     v = np.array(v, dtype=float)
     return np.diag(v)
-    
     pass
