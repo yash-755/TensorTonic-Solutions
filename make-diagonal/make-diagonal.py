@@ -6,5 +6,5 @@ def make_diagonal(v):
     """
     # Write code here 
     v = np.array(v, dtype=float)
-    return np.diag(v) 
+    return np.diag(v)
     pass
